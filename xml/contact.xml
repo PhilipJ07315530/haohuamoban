@@ -1,0 +1,92 @@
+<?xml version='1.0' encoding='utf-8'?>
+
+<contactform 
+	formwidth="780"
+	formheight="485"
+
+	mailphpurl="mail.php"
+	imageurl="images/contact.jpg"
+	imagelink="http://sc.chinaz.com/"
+	imagetarget="_blank"
+	imagewidth="320"
+	imageheight="475"
+	imagepadding="5"
+	imagesolidbackgroundcolor="0x1e1a17"
+	imagesolidbackgroundopacity="0.95"
+	imagesolidbackgroundrounded="0"
+	
+	imageshadowopacity="0.3"
+	imageshadowblur="7"
+	imageshadowcolor="0x000000"
+	imageshadowdistance="2"
+	imageshadowangle="90"
+	
+	mailphplink="mail.php"
+	
+	fieldbgcolor="0x1e1a17"
+	fieldbgopacity="0.8"
+	fieldbgrounded="0"
+	fieldfontcolor="0xcccccc"
+	fieldfontsize="12"
+	
+	errorbgcolor="0xffffff"
+	errorbgopacity="0.95"
+	errorfontcolor="0x333333"
+	errorfontsize="12"
+	
+	infobgcolor="0x1e1a17"
+	infobgopacity="0.95"
+	
+	btnbgcolor="0x111111"
+	btnfontcolor="0xaaaaaa"
+	btnfontsize="12"
+	
+	fonttype="Arial"
+>
+
+	<infotext>
+	<![CDATA[<scripttext2>We are interested in your Feedback!</scripttext2><content><br/>
+	Address: &nbsp; &nbsp;1st Street, New York, USA<br/>
+	Phone: &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;1 (800) 123-4567-1<br/>
+	Fax: &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;1 (800) 123-4567-2<br/><br/>
+	Email: &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<a href="mailto:info@yourcompany.com">&nbsp; info@yourcompany.com</a><br/>
+	Website: <a href="http://sc.chinaz.com/">&nbsp; www.yourcompany.com</a></content>]]>
+	</infotext>
+	
+	<name>
+	Please enter your name here
+	</name>
+	
+	<email>
+	Please enter your email address here
+	</email>
+	
+	<message>
+	Your message to us
+	</message>
+	
+	<sendmail>
+	Send Request
+	</sendmail>
+	
+	<errorname>
+	Please enter your name!
+	</errorname>
+	
+	<erroremail>
+	Please enter a valid email address!
+	</erroremail>
+	
+	<errorfield>
+	Please enter a message!
+	</errorfield>
+	
+	<finished>
+	Thank you the Email has been send!
+	</finished>
+	
+	<notfinished>
+	Error sending the Email!
+	</notfinished>
+	
+</contactform>

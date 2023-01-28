@@ -1,0 +1,144 @@
+<?xml version='1.0' encoding='utf-8'?>
+
+<contactform 
+	formwidth="920"
+	formheight="485"
+
+	mailphpurl="reservation.php"
+	imageurl="images/reservation.jpg"
+	imagelink="http://sc.chinaz.com/?"
+	imagetarget="_blank"
+	imagewidth="320"
+	imageheight="475"
+	imagepadding="5"
+	imagesolidbackgroundcolor="0x1e1a17"
+	imagesolidbackgroundopacity="0.95"
+	imagesolidbackgroundrounded="0"
+	
+	imageshadowopacity="0.3"
+	imageshadowblur="7"
+	imageshadowcolor="0x000000"
+	imageshadowdistance="2"
+	imageshadowangle="90"
+	
+	fieldbgcolor="0x1e1a17"
+	fieldbgopacity="0.8"
+	fieldbgrounded="0"
+	fieldfontcolor="0xcccccc"
+	fieldfontsize="12"
+	
+	errorbgcolor="0xffffff"
+	errorbgopacity="0.95"
+	errorfontcolor="0x333333"
+	errorfontsize="12"
+	
+	infobgcolor="0x1e1a17"
+	infobgopacity="0.95"
+	
+	btnbgcolor="0x111111"
+	btnfontcolor="0xaaaaaa"
+	btnfontsize="12"
+	
+	fonttype="Arial"
+>
+
+	<infotext>
+	<![CDATA[<scripttext2>Reserve a Table online!</scripttext2><content><br/>
+	<b>This form is fully customizable via XML which means that you can add and remove fields, change titles / error messages and set them as mandatory/not-mandatory without modifying the flash source files.</b><br/><br/>
+	Please fill in the fields below and press the <i>"SUBMIT"</i> button to send us a table reservation request for our restaurant.</content>]]>
+	</infotext>
+	
+	<formfields
+		requiredtext="Fields marked with * are mandatory"
+		finishedtext="Thank you, the reservation request has been send!"
+		notfinishedtext="Error sending the Email!"
+		submitbuttontext="SUBMIT"
+	>
+		
+		<field
+			fieldtitle="Date (day / month) *"
+			fieldrequired="true"
+			fieldvar="datevar"
+			fielderror="Please enter the desired date!"
+		/>
+		
+		<field
+			fieldtitle="Time (example: 6:30pm) *"
+			fieldrequired="true"
+			fieldvar="timevar"
+			fielderror="Please enter the time for your reservation!"
+		/>
+		
+		<field
+			fieldtitle="Number of Guests *"
+			fieldrequired="true"
+			fieldvar="guestsvar"
+			fielderror="Please enter the number of guests!"
+		/>
+		
+		<field
+			fieldtitle="Occasion"
+			fieldrequired="false"
+			fieldvar="occasionvar"
+			fielderror=""
+		/>
+		
+		<field
+			fieldtitle="First Name *"
+			fieldrequired="true"
+			fieldvar="firstnamevar"
+			fielderror="Please enter your first name!"
+		/>
+		
+		<field
+			fieldtitle="Last Name *"
+			fieldrequired="true"
+			fieldvar="lastnamevar"
+			fielderror="Please enter your last name!"
+		/>
+		
+		<field
+			fieldtitle="Street"
+			fieldrequired="false"
+			fieldvar="streetvar"
+			fielderror=""
+		/>
+		
+		<field
+			fieldtitle="City"
+			fieldrequired="false"
+			fieldvar="cityvar"
+			fielderror=""
+		/>
+		
+		<field
+			fieldtitle="Postal Code"
+			fieldrequired="false"
+			fieldvar="postalvar"
+			fielderror=""
+		/>
+		
+		<field
+			fieldtitle="Phone (For confirmation) *"
+			fieldrequired="true"
+			fieldvar="phonevar"
+			fielderror="Please enter your telephone number!"
+		/>
+		
+		<field
+			fieldtitle="Email (For confirmation) *"
+			fieldrequired="true"
+			fieldvar="emailvar"
+			fielderror="Please enter your email address!"
+		/>
+		
+		<field
+			fieldtitle="Mobile"
+			fieldrequired="false"
+			fieldvar="mobilevar"
+			fielderror=""
+		/>
+	
+	</formfields>
+	
+</contactform>
